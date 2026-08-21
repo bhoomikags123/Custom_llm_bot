@@ -28,7 +28,7 @@ if prompt:
 
 
     
-    client = Groq(api_key="your api key")
+    client = Groq(api_key=st.secrets["GROQ_API_KEY"])
     response = client.chat.completions.create(
         model="openai/gpt-oss-120b",
         messages=[ 
