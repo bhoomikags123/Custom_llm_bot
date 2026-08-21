@@ -9,7 +9,9 @@ Features
 🎨 Custom gradient-themed UI
 
 Tech Stack
+
 Streamlit — Web app framework
+
 Groq — LLM inference API
 
 Getting Started
@@ -17,6 +19,7 @@ Getting Started
 Prerequisites
 
 1.Python 3.8+
+
 2.A Groq API key
 
 Installation
